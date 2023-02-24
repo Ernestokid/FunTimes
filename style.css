@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    background-color: rgba(222, 149, 222, 0.367);
+}
+.header{
+    text-decoration: none;
+    height: auto;
+    background-image: url(youth-ministry.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 6vh;
+    display: flex;
+}
+.ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-decoration: none;
+    background-color: rgba(193, 56, 10,0.3);
+    list-style: none;
+
+}
+.ul li a{
+    text-decoration: none;
+    color: black;
+    transition-delay: 0ms;
+}
+.ul li a:hover{
+    text-decoration-line: underline;
+    color: aqua;
+    transition-delay: 0.01s;
+    transition-duration: 0.3s;
+}
+.welcome{
+    text-align: left;
+    padding-top: 19%;
+    background: rgba(128, 128, 128, 0.78) ;
+    padding-bottom: 10%;
+}
+.welcome h1{
+    color: black;
+}
+.welcome h1 strong {
+    color: purple;
+    font-size: larger;
+    
+}
+.p{
+    font-weight: bold;
+    color: green;
+}
+.welcome p{
+    font-weight: bold;
+}
+.welcome p a{
+    text-decoration: none;
+    background-color: palevioletred;
+    border-radius: 20%;
+    border-color: black;
+    color: aliceblue;
+}
+.activities{
+    text-align: center;
+    background-color: rgba(121, 171, 171, 0.34);
+}
+.activities h3{
+    color: purple;
+}
+.activities_section{
+    background-color: rgba(240, 248, 255, 0.497);
+}
+img{
+    width: 300px;
+    border-radius: 10%;
+}
+img:hover{
+    width: 305px;
+    transition-duration: 0.3s;
+}
+.one{
+    grid-auto-flow: column;
+    display: flex;
+    flex-flow: row;
+    height: auto;
+
+}
+.img{
+    padding-left: 4%;
+    padding-right: 7%;
+}
+.desc{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 800;
+    padding: 4%;
+}
+.desc p a{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 10%;
+    padding: 3px;
+}
+.desc p a:hover{
+    background-color: wheat;
+    color: black;
+    transition-duration: 0.4s;
+}
+.visit{
+    height: 5vh;
+    width: fit-content;
+    margin: 10px;
+
+}
+.visit button a{
+    text-decoration: none;
+    padding: 7px;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 10%;
+    border-color: wheat;
+}
+.visit button a:hover{
+    font-weight: 500;
+    color: red;
+    border-width: 4px;
+    transition-duration: 0.4s;
+}
+.about{
+    text-align: center;
+    background-color: antiquewhite;
+    text-shadow: 5cap;
+}
+.about h3{
+    color: purple;
+}
+.about p{
+    font-weight: 600;
+}
+.aboutsection{
+    padding: 10px;
+    align-content: center;
+    max-width: 18cm;
+}
+.aboutsection p{
+    align-content: center;
+    padding-left: 5%;
+}
+.i{
+    float: right;
+}
+.column a{
+    text-decoration: none;
+    flex-wrap: wrap;
+    display: block;
+    text-align: center;
+    background-color: rgba(222, 184, 135, 0.489);
+    padding: 3px;
+    color: black;
+    border-radius: 10%;
+}
+.footer{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 5%;
+    background-color: antiquewhite;
+    justify-content: space-between;
+}
+.column a:hover{
+    text-decoration: underline;
+    color:  rgba(222, 184, 135, 0.489);
+    background-color: black;
+    border-radius: 10%;
+    transition-duration: 0.4s;
+}
+.social {
+    text-align: center;
+    background-color: wheat;
+    color: black;
+    font-weight: 700;
+    padding: 4%;
+    border-radius: 10%;
+}
+.social a{
+    text-decoration: none;
+
+}
+.social a:hover{
+    color: brown;
+    transition-duration: 0.3s;
+
+}
+.me{
+    text-align: center;
+    padding: 3%;
+    background-color: rgba(0, 255, 255, 0.444);
+    color: brown;
+}
+.me:hover{
+    background-color: antiquewhite;
+    color: blueviolet;
+    transition-duration: 0.5s;
+    font-size: larger;
+}
+.aboutsection p a{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 10%;
+    padding: 3px;
+}
+.aboutsection p a:hover{
+    background-color: wheat;
+    color: black;
+    transition-duration: 0.4s;
+}
