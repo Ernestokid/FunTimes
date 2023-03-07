@@ -7,6 +7,7 @@
     <title>protoj</title>
     <link rel="icon" type="image/x-icon" href="favicon (2).ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="body">
     <!-- header -->
@@ -14,23 +15,26 @@
         <!-- navbar -->
         <div class="navbar">
             <!-- logo -->
-            <img src="logo2.jpg" alt="our logo">
-
-            <!-- burger menu -->
-            <div>
-
-             </div>
-             <!-- ul -->
-             <ul class="ul">
-                <li><a href="index.html">Home</a></li>
+                <img src="logo2.jpg" alt="our logo">
+           
+            <!-- ul -->
+             <ul class="ul" id="myLinks" >
+                <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="#activities">Activities</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#Contact Us">Contact Us</a></li>
                 <li><a href="page2.html">FunTimes</a></li>
-             </ul>
+            </ul>
+             <!-- burger menu -->
+     
+            <div id="mobile">
+                <a class="icon" onclick="myFunction()">    
+            <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
+        </div>
+        
         <!-- welcome div -->
-        <div class="welcome">
+        <div class="welcome1">
             <h1><strong>Welcome</strong> to the AIC <br>Trinty Youth Web Demo <br> (-_^) </h1>
             <p class="p">Don't expect much for now [=></p>
             <p>This is just a project to build on my skills in HTML, CSS, Javascript_
@@ -115,21 +119,21 @@
             <a href="#">Contact Developer</a>
             <a href="#">Join us</a>
             <a href="#">Home</a>
-            <a href="#">FunTimes</a>
+            <a href="page2.html">FunTimes</a>
         </div>
         <!-- column two -->
         <div class="column">
             <a href="#">Contact Developer</a>
             <a href="#">Join us</a>
             <a href="#">Home</a>
-            <a href="#">FunTimes</a>
+            <a href="page2.html">FunTimes</a>
         </div>
         <!-- column three -->
         <div class="column">
             <a href="#">Contact Developer</a>
             <a href="#">Join us</a>
             <a href="#">Home</a>
-            <a href="#">FunTimes</a>
+            <a href="page2.html">FunTimes</a>
         </div>
      </div>
         <!-- socials -->
@@ -142,7 +146,6 @@
         <div class="me">
             <h2>Created By MrErnesto</h2>
         </div>
-    
-   
+        <script src="index.js"></script>
 </body>
 </html>
